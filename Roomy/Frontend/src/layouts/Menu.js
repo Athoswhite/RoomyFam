@@ -4,14 +4,9 @@ import React, { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/">Home One</Link>
+      <Link href="/index-3">Home</Link>
     </li>
-    <li className="menu-item">
-      <Link href="/index-2">Home Two</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/index-3">Home Three</Link>
-    </li>
+ 
   </Fragment>
 );
 export const About = () => (
@@ -24,19 +19,7 @@ export const About = () => (
 export const Listing = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/listing-list">Listing List</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/listing-grid">Listing Grid</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/listing-map">Listing Map Grid</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/listing-details-1">Listing Details One</Link>
-    </li>
-    <li className="menu-item">
-      <Link href="/listing-details-2">Listing Details Two</Link>
+      <Link href="/listing-grid">Find Roomies</Link>
     </li>
   </Fragment>
 );

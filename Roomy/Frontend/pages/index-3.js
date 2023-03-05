@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { Nav, Tab } from "react-bootstrap";
+import LearnAboutUs from "../src/components/LearnAboutUs";
 import TestimoinalSlider2 from "../src/components/Slider/TestimonialSlider2";
+import Header3 from "../src/layouts/headers/Header3";
 import Layout from "../src/layouts/Layout";
 
 const Index3 = () => {
@@ -21,7 +23,7 @@ const Index3 = () => {
   }, []);
 
   return (
-    <Layout header={3}>
+    <Layout header={Header3}>
       {/*====== End Header Section ======*/}
       {/*====== Start Hero Section ======*/}
       <section className="hero-area">
@@ -48,7 +50,7 @@ const Index3 = () => {
                     <Tab.Container defaultActiveKey={"flight"}>
                       <form onSubmit={(e) => e.preventDefault()}>
                         <div className="row align-items-center">
-                          <div className="col-lg-6">
+                          {/* <div className="col-lg-6">
                             <div className="search-nav mb-10">
                               <Nav as="ul" className="nav nav-tabs">
                                 <Nav.Item>
@@ -83,8 +85,8 @@ const Index3 = () => {
                                 </li>
                               </Nav>
                             </div>
-                          </div>
-                          <div className="col-lg-6">
+                          </div> */}
+                          {/* <div className="col-lg-6">
                             <p className="tags mb-15">
                               <span>Popular:</span>
                               <a href="#">Saloon</a>,<a href="#">Restaurant</a>,
@@ -92,7 +94,7 @@ const Index3 = () => {
                               <a href="#">Train Station</a>,
                               <a href="#">Parking</a>,<a href="#">Shooping</a>
                             </p>
-                          </div>
+                          </div> */}
                         </div>
                         <div className="hero-search-form tab-content">
                           <Tab.Pane className="show active">
@@ -364,7 +366,7 @@ const Index3 = () => {
       </section>
       {/*====== End Hero Section ======*/}
       {/*====== Start category Section ======*/}
-      <section className="category-area">
+      {/* <section className="category-area">
         <div
           className="category-wrapper-bg bg_cover pt-75 pb-50"
           style={{ backgroundImage: "url(assets/images/bg/catgory-bg-1.jpg)" }}
@@ -471,10 +473,10 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End category Section ======*/}
       {/*====== Start Listing Section ======*/}
-      <section className="listing-grid-area light-bg pt-115 pb-90">
+      {/* <section className="listing-grid-area light-bg pt-115 pb-90">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -810,7 +812,7 @@ const Index3 = () => {
       </section>
       {/*====== End Listing Section ======*/}
       {/*====== Start Features Section ======*/}
-      <section className="features-area">
+      {/* <section className="features-area">
         <div
           className="features-wrapper-two bg_cover pt-115 pb-80"
           style={{ backgroundImage: "url(assets/images/bg/features-bg-1.jpg)" }}
@@ -873,10 +875,10 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>  */}
       {/*====== End Features Section ======*/}
       {/*====== Start CTA Section ======*/}
-      <div className="cta-area">
+      {/* <div className="cta-area">
         <div
           className="cta-wrapper-three bg_cover pt-50 pb-50"
           style={{ backgroundImage: "url(assets/images/bg/cta-bg-3.jpg)" }}
@@ -898,10 +900,10 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*====== End CTA Section ======*/}
       {/*====== Start Testimonial Section ======*/}
-      <section className="testimonial-area pt-120 pb-120">
+      {/* <section className="testimonial-area pt-120 pb-120">
         <div className="container">
           <div className="testimonial-wrapper-two">
             <div className="row no-gutters">
@@ -934,94 +936,13 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Testimonial Section ======*/}
       {/*====== Start Client Section ======*/}
-      <section className="client-area">
-        <div
-          className="client-wrapper-two bg_cover pt-120 pb-70"
-          style={{
-            backgroundImage: "url(assets/images/bg/testimonial-bg-1.jpg)",
-          }}
-        >
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-5">
-                <div className="client-content-box mb-50 wow fadeInLeft">
-                  <div className="section-title section-title-left section-title-white mb-35">
-                    <span className="sub-title">Premium Partners</span>
-                    <h2>Glod Sponsors</h2>
-                  </div>
-                  <p>
-                    Sed ut perspiciatis omnis iste natus error voluptatem
-                    accusantium doloremque laudantiu totam rem aperiam eaque
-                    quae abillo inventore veritatis quasi architectos beatae
-                    vitae dicta sunt explicabo.
-                  </p>
-                  <Link href="/listing-grid">
-                    <a className="main-btn icon-btn">Explore Now</a>
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="client-item-wrapper mb-50 wow fadeInRight">
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/05.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/06.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/07.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/08.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/09.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/10.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <LearnAboutUs />
       {/*====== End Client Section ======*/}
       {/*====== Start Blog Section ======*/}
-      <section className="blog-area pt-115 pb-120">
+      {/* <section className="blog-area pt-115 pb-120">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -1183,7 +1104,7 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Blog Section ======*/}
     </Layout>
   );

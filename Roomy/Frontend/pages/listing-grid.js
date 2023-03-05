@@ -3,13 +3,15 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import RangeSlider from "../src/components/RangeSlider";
 import Layout from "../src/layouts/Layout";
+import HowWorkDetail from "../src/components/HowWorkDetails";
 
 const ListingGrid = () => {
   return (
     <Layout>
-      <PageBanner title={"Listing Grid"} pageName={"Listing"} />
+      <PageBanner title={"Find A Roomy"} pageName={"Listing"} />
       <section className="listing-grid-area pt-120 pb-90">
         <div className="container">
+          <HowWorkDetail />
           <div className="row">
             <div className="col-lg-4">
               <div className="sidebar-widget-area">
@@ -42,7 +44,7 @@ const ListingGrid = () => {
                           <option value={8}>Art Gallery</option>
                         </select>
                       </div>
-                      <div className="form_group">
+                      {/* <div className="form_group">
                         <select className="wide">
                           <option disabled selected="Location">
                             Location
@@ -56,8 +58,8 @@ const ListingGrid = () => {
                           <option value={7}>Bern</option>
                           <option value={8}>Bangkok</option>
                         </select>
-                      </div>
-                      <div className="form_group">
+                      </div> */}
+                      {/* <div className="form_group">
                         <select className="wide">
                           <option disabled selected="By Country">
                             By Country
@@ -71,8 +73,8 @@ const ListingGrid = () => {
                           <option value={7}>Swizerland</option>
                           <option value={8}>Thailand</option>
                         </select>
-                      </div>
-                      <div className="form_group">
+                      </div> */}
+                      {/* <div className="form_group">
                         <select className="wide">
                           <option disabled selected="By place">
                             By place
@@ -86,9 +88,9 @@ const ListingGrid = () => {
                           <option value={7}>Bern</option>
                           <option value={8}>Bangkok</option>
                         </select>
-                      </div>
+                      </div> */}
                     </div>
-                    <div className="price-range-widget">
+                    {/* <div className="price-range-widget">
                       <h4 className="widget-title">Around Distance: 50 km</h4>
                       <RangeSlider />
 
@@ -102,13 +104,13 @@ const ListingGrid = () => {
                         <option value={4}>$100-$130</option>
                         <option value={5}>$130-$150</option>
                       </select>
-                    </div>
+                    </div> */}
                     <div className="form_group">
                       <button className="main-btn icon-btn">Search Now</button>
                     </div>
                   </form>
                 </div>
-                <div className="widget newsletter-widget mb-30 wow fadeInUp">
+                {/* <div className="widget newsletter-widget mb-30 wow fadeInUp">
                   <div
                     className="newsletter-widget-wrap bg_cover"
                     style={{
@@ -120,7 +122,7 @@ const ListingGrid = () => {
                     <h3>Subscribe Our Newsletter</h3>
                     <button className="main-btn icon-btn">Subscribe</button>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-lg-8">
@@ -427,7 +429,7 @@ const ListingGrid = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 col-sm-12">
+                  {/* <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <img
@@ -491,8 +493,8 @@ const ListingGrid = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
+                  </div> */}
+                  {/* <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <img
@@ -555,8 +557,8 @@ const ListingGrid = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
+                  </div> */}
+                  {/* <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <img
@@ -619,8 +621,8 @@ const ListingGrid = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-6 col-sm-12">
+                  </div> */}
+                  {/* <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <img
@@ -684,7 +686,7 @@ const ListingGrid = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

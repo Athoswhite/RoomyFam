@@ -24,16 +24,16 @@ const Header3 = () => {
                       <i className="ti-twitter-alt" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">
                       <i className="ti-pinterest" />
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="#">
                       <i className="ti-dribbble" />
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#">
                       <i className="ti-instagram" />
@@ -55,30 +55,30 @@ const Header3 = () => {
             <div className="col-md-4">
               <div className="top-right">
                 <ul className="d-flex">
-                  <li>
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-search" />
                         <span>Search here</span>
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-heart" />
                         <span>Wishlist</span>
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-shopping-cart" />
                         <span>Cart</span>
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -103,29 +103,11 @@ const Header3 = () => {
                   </div>
                   <nav className="main-menu">
                     <ul>
+                      <Home />
+                      {/* <About /> */}
+                      <Listing />
                       <li className="menu-item has-children">
-                        <Link href="/">
-                          <a>Home</a>
-                        </Link>
-                        <ul className="sub-menu">
-                          <Home />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
-                      <About />
-                      <li className="menu-item has-children">
-                        <a href="#">Listings</a>
-                        <ul className="sub-menu">
-                          <Listing />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
-                      </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Pages</a>
+                        <a href="#">Becoming a RoomFam</a>
                         <ul className="sub-menu">
                           <Pages />
                         </ul>
@@ -133,7 +115,7 @@ const Header3 = () => {
                           <i className="ti-arrow-down" />
                         </span>
                       </li>
-                      <li className="menu-item has-children">
+                      {/* <li className="menu-item has-children">
                         <a href="#">Article</a>
                         <ul className="sub-menu">
                           <Blog />
@@ -141,8 +123,8 @@ const Header3 = () => {
                         <span className="dd-trigger">
                           <i className="ti-arrow-down" />
                         </span>
-                      </li>
-                      <Contact />
+                      </li> */}
+                      {/* <Contact /> */}
                       <li className="nav-btn">
                         <Link href="/add-listing">
                           <a className="main-btn icon-btn">Add Listing</a>
