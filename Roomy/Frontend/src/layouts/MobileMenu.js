@@ -30,16 +30,16 @@ const MobileMenu = () => {
                       <i className="ti-twitter-alt"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">
                       <i className="ti-pinterest"></i>
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="#">
                       <i className="ti-dribbble"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#">
                       <i className="ti-instagram"></i>
@@ -61,30 +61,30 @@ const MobileMenu = () => {
             <div className="col-md-3">
               <div className="top-right">
                 <ul className="d-flex">
-                  <li>
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-search"></i>
                         <span>Search here</span>
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-heart"></i>
                         <span>Wishlist</span>
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/">
                       <a>
                         <i className="ti-shopping-cart"></i>
                         <span>Cart</span>
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -97,10 +97,10 @@ const MobileMenu = () => {
             <div className="row">
               <div className="col-lg-2 col-5">
                 <div className="site-branding">
-                  <Link href="/">
+                  <Link href="/index3">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo-1.png"
+                        src="assets/images/logo/logo2.png"
                         alt="Brand Logo"
                       />
                     </a>
@@ -118,7 +118,7 @@ const MobileMenu = () => {
                   <nav className="main-menu">
                     <ul>
                       <li className="menu-item has-children">
-                        <Link href="/">
+                        <Link href="/index3">
                           <a>Home</a>
                         </Link>
                         <ul className="sub-menu" style={activeLi("Home")}>
@@ -133,7 +133,7 @@ const MobileMenu = () => {
                       </li>
                       <About />
                       <li className="menu-item has-children">
-                        <a href="#">Listings</a>
+                        <a href="/listing-grid">Find Roomies</a>
                         <ul className="sub-menu" style={activeLi("Listings")}>
                           <Listing />
                         </ul>
@@ -145,7 +145,7 @@ const MobileMenu = () => {
                         </span>
                       </li>
                       <li className="menu-item has-children">
-                        <a href="#">Pages</a>
+                        <a href="#">Become A RoomFam</a>
                         <ul className="sub-menu" style={activeLi("Pages")}>
                           <Pages />
                         </ul>
@@ -156,7 +156,7 @@ const MobileMenu = () => {
                           <i className="ti-arrow-down"></i>
                         </span>
                       </li>
-                      <li className="menu-item has-children">
+                      {/* <li className="menu-item has-children">
                         <a href="#">Article</a>
                         <ul className="sub-menu" style={activeLi("Article")}>
                           <Blog />
@@ -167,11 +167,11 @@ const MobileMenu = () => {
                         >
                           <i className="ti-arrow-down"></i>
                         </span>
-                      </li>
+                      </li> */}
                       <Contact />
                       <li className="nav-btn">
-                        <Link href="/add-listing">
-                          <a className="main-btn icon-btn">Add Listing</a>
+                        <Link href="#">
+                          <a className="main-btn ">Login/Sign-up</a>
                         </Link>
                       </li>
                     </ul>
@@ -190,7 +190,7 @@ const MobileMenu = () => {
                     </li>
                     <li className="hero-nav-btn">
                       <Link href="/add-listing">
-                        <a className="main-btn icon-btn">Add Listing</a>
+                        <a className="main-btn">Login/Sign-up</a>
                       </Link>
                     </li>
                     <li className="nav-toggle-btn">

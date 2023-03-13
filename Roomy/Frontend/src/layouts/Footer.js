@@ -13,7 +13,7 @@ const Footer = () => {
                   className="widget about-widget mb-40 wow fadeInUp"
                   data-wow-delay="10ms"
                 >
-                  <h4 className="widget-title">Mobile Experience</h4>
+                  <h4 className="widget-title">Coming Soon</h4>
                   <ul className="button">
                     <li>
                       <a href="#" className="app-btn android-btn">
@@ -51,11 +51,11 @@ const Footer = () => {
                           <i className="ti-twitter-alt"></i>
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <i className="ti-pinterest"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="#">
                           <i className="ti-instagram"></i>
@@ -70,30 +70,16 @@ const Footer = () => {
                   className="widget recent-post-widget mb-40 wow fadeInUp"
                   data-wow-delay="20ms"
                 >
-                  <h4 className="widget-title">Recent News</h4>
+                  <h4 className="widget-title">About</h4>
                   <ul className="post-widget-list">
                     <li className="post-content-item">
                       <div className="post-title-date">
                         <span className="posted-on">
-                          <a href="#">22 August - 2021</a>
+                          <a href="#">Privacy Policy</a>
                         </span>
-                        <h6 className="title">
-                          <Link href="/blog-details">
-                            <a>Facilisis a ultricies quis dictumst fredom...</a>
-                          </Link>
-                        </h6>
-                      </div>
-                    </li>
-                    <li className="post-content-item">
-                      <div className="post-title-date">
                         <span className="posted-on">
-                          <a href="#">22 August - 2021</a>
+                          <a href="#">Term of Use</a>
                         </span>
-                        <h6 className="title">
-                          <Link href="/blog-details">
-                            <a>Facilisis a ultricies quis dictumst fredom...</a>
-                          </Link>
-                        </h6>
                       </div>
                     </li>
                   </ul>
@@ -104,25 +90,25 @@ const Footer = () => {
                   className="widget categories-widget mb-40 wow fadeInUp"
                   data-wow-delay="30ms"
                 >
-                  <h4 className="widget-title">Categories</h4>
+                  <h4 className="widget-title">More</h4>
                   <ul className="categories-link">
                     <li>
-                      <a href="#">Restaurant</a>
+                      <a href="#">Fair Hosuing Guides</a>
                     </li>
                     <li>
-                      <a href="#">Museum</a>
+                      <a href="#">Advertise</a>
                     </li>
                     <li>
-                      <a href="#">Party Center</a>
+                      <a href="#">Hotspot</a>
                     </li>
                     <li>
-                      <a href="#">Game Field</a>
+                      <a href="#">Tour</a>
                     </li>
                     <li>
                       <a href="#">Shopping</a>
                     </li>
                     <li>
-                      <a href="#">Art & Gallery</a>
+                      <a href="#">Happenings</a>
                     </li>
                   </ul>
                 </div>
@@ -134,7 +120,7 @@ const Footer = () => {
                 >
                   <h4 className="widget-title">Newsletter</h4>
                   <p>
-                    Caoreet massa torto pon interdum sestibulum suscipit duis.
+                    Subcribe for all updates
                   </p>
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
@@ -161,8 +147,8 @@ const Footer = () => {
               <div className="col-lg-6">
                 <div className="copyright-text">
                   <p>
-                    Copyright &copy; 2021. All rights reserved to{" "}
-                    <span>Webtend</span>
+                    Copyright &copy; 2023. All rights reserved to{" "}
+                    <span>Roomy Inc.</span>
                   </p>
                 </div>
               </div>
@@ -170,13 +156,10 @@ const Footer = () => {
                 <div className="copyright-link">
                   <ul>
                     <li>
-                      <a href="#">Terms & Conditins</a>
+                      <a href="#">Terms & Conditions</a>
                     </li>
                     <li>
-                      <a href="#">Services</a>
-                    </li>
-                    <li>
-                      <a href="#">Career</a>
+                      <a href="#">Cookies preference</a>
                     </li>
                   </ul>
                 </div>

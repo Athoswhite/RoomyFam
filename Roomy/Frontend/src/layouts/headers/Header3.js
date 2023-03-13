@@ -92,7 +92,7 @@ const Header3 = () => {
               <div className="col-lg-2 col-5">
                 <div className="site-branding">
                   <a href="index-3.html" className="brand-logo">
-                    <img src="assets/images/logo/logo-1.png" alt="Brand Logo" />
+                    <img src="assets/images/logo/logo2.png" alt="Brand Logo" />
                   </a>
                 </div>
               </div>
@@ -137,16 +137,16 @@ const Header3 = () => {
               <div className="col-lg-3 col-5">
                 <div className="header-right-nav">
                   <ul className="d-flex align-items-center">
-                    <li className="user-btn">
+                    {/* <li className="user-btn">
                       <Link href="/">
                         <a className="icon">
                           <i className="flaticon-avatar" />
                         </a>
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="hero-nav-btn">
                       <Link href="/add-listing">
-                        <a className="main-btn icon-btn">Add Listing</a>
+                        <a className="main-btn ">Login</a>
                       </Link>
                     </li>
                     <li className="nav-toggle-btn">

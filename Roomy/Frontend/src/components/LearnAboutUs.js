@@ -27,54 +27,14 @@ const LearnAboutUs = () => {
                   Africa and support you to do your best work. 
 
                   </p>
-                  <Link href="/listing-grid">
+                  <Link href="/about">
                     <a className="main-btn icon-btn">Learn More</a>
                   </Link>
                 </div>
               </div>
-              <div className="col-lg-7">
-                <div className="client-item-wrapper mb-50 wow fadeInRight">
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/05.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/06.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/07.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/08.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
-                    <a href="#">
-                      <img
-                        src="assets/images/client/09.png"
-                        alt="client image"
-                      />
-                    </a>
-                  </div>
-                  <div className="client-item client-item-two">
+              <div className="col-lg-6">
+                <div className="client-item-wrapper mb-60 wow fadeInRight">
+                  <div className="client-item ">
                     <a href="#">
                       <img
                         src="assets/images/client/10.png"

@@ -38,10 +38,10 @@ const Index3 = () => {
               <div className="col-lg-12">
                 <div className="hero-content text-center">
                   <h1 className="wow fadeInUp" data-wow-delay=".30s">
-                    Explore The Worlds
+                    Your Perfect House
                   </h1>
                   <h3 className="wow fadeInDown" data-wow-delay=".50s">
-                    People Don’t Take,Trips Take People
+                  Find housing for students, young professionals & Experts in Africa 
                   </h3>
                   <div
                     className="hero-search-wrapper wow fadeInUp"
@@ -104,7 +104,7 @@ const Index3 = () => {
                                   <input
                                     type="text"
                                     className="form_control"
-                                    placeholder="Search By Category"
+                                    placeholder="Search By Places"
                                     name="search"
                                     required
                                   />
@@ -114,14 +114,15 @@ const Index3 = () => {
                               <div className="col-lg-3 col-md-6">
                                 <div className="form_group">
                                   <select className="wide">
-                                    <option value="01">Museums</option>
-                                    <option value="02">Restaurant</option>
-                                    <option value="03">Party Center</option>
-                                    <option value="04">Fitness Zone</option>
-                                    <option value="05">Game Field</option>
-                                    <option value="06">Job & Feeds</option>
-                                    <option value="07">Shooping</option>
-                                    <option value="08">Art Gallery</option>
+                                    <option value="01">Shared Apartment</option>
+                                    <option value="02">Apartment</option>
+                                    <option value="03">Single Unfurnished House</option>
+                                    <option value="04">Shared Unfurnished House</option>
+                                    <option value="05">Furnished House</option>
+                                    <option value="06">Single Furnished House</option>
+                                    <option value="07">Mansion</option>
+                                    <option value="08">Penthouse</option>
+                                    <option value="09">Bongalo</option>
                                   </select>
                                 </div>
                               </div>
@@ -183,10 +184,10 @@ const Index3 = () => {
                   />
                   <div className="place-overlay">
                     <div className="place-content">
-                      <h4>Rialto Bridge</h4>
+                      <h4>Côte D'ivoire </h4>
                       <ul className="ratings ratings-four">
                         <li>
-                          <span>Venezia, Italy</span>
+                          <span>Abidjan, Ivory Coast</span>
                         </li>
                         <li className="star">
                           <i className="fas fa-star" />
@@ -221,10 +222,10 @@ const Index3 = () => {
                   />
                   <div className="place-overlay">
                     <div className="place-content">
-                      <h4>Flatiron Building</h4>
+                      <h4>Karnak Temple </h4>
                       <ul className="ratings ratings-four">
                         <li>
-                          <span>Venezia, Italy</span>
+                          <span>Cairo, Egypt</span>
                         </li>
                         <li className="star">
                           <i className="fas fa-star" />
@@ -259,10 +260,10 @@ const Index3 = () => {
                   />
                   <div className="place-overlay">
                     <div className="place-content">
-                      <h4>Grimentz, Switzerland</h4>
+                      <h4>Sun City</h4>
                       <ul className="ratings ratings-four">
                         <li>
-                          <span>Venezia, Italy</span>
+                          <span>North-West, South Africa</span>
                         </li>
                         <li className="star">
                           <i className="fas fa-star" />
@@ -297,10 +298,10 @@ const Index3 = () => {
                   />
                   <div className="place-overlay">
                     <div className="place-content">
-                      <h4>Arc De Triomphe, Place</h4>
+                      <h4>Kimihurura</h4>
                       <ul className="ratings ratings-four">
                         <li>
-                          <span>Venezia, Italy</span>
+                          <span>Kigali, Rwanda</span>
                         </li>
                         <li className="star">
                           <i className="fas fa-star" />
@@ -335,10 +336,10 @@ const Index3 = () => {
                   />
                   <div className="place-overlay">
                     <div className="place-content">
-                      <h4>Gili Trawangan, Indah</h4>
+                      <h4>Lagos City</h4>
                       <ul className="ratings ratings-four">
                         <li>
-                          <span>Venezia, Italy</span>
+                          <span>Lagos, Nigeria</span>
                         </li>
                         <li className="star">
                           <i className="fas fa-star" />
