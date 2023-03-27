@@ -12,7 +12,7 @@ const PageBanner = ({ pageName, title }) => {
                 <h1 className="title">{title}</h1>
                 <ul className="breadcrumbs-link">
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/index-3">Home</Link>
                   </li>
                   <li className="active">{pageName ? pageName : title}</li>
                 </ul>

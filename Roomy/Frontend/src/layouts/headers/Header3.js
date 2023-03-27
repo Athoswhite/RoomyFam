@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import TooTip from "../../components/TooTip";
 import { About, Blog, Contact, Home, Listing, Pages } from "../Menu";
+import Loginscreen from "../../../pages/LoginHomeScreen";
 
 const Header3 = () => {
   return (
@@ -43,14 +45,11 @@ const Header3 = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="top-content text-center">
-                <p>
-                  We Have Special Offers Every{" "}
-                  <Link href="/">
-                    <a>Find your offer</a>
-                  </Link>
-                </p>
+            <div class="flex flex-wrap justify-center space-x-2">
+              <div className="top-content text-center ">
+               <TooTip />
               </div>
+            </div>
             </div>
             <div className="col-md-4">
               <div className="top-right">
@@ -91,7 +90,7 @@ const Header3 = () => {
             <div className="row align-items-center">
               <div className="col-lg-2 col-5">
                 <div className="site-branding">
-                  <a href="index-3.html" className="brand-logo">
+                  <a href="/index-3" className="brand-logo">
                     <img src="assets/images/logo/logo2.png" alt="Brand Logo" />
                   </a>
                 </div>
@@ -106,14 +105,9 @@ const Header3 = () => {
                       <Home />
                       {/* <About /> */}
                       <Listing />
-                      <li className="menu-item has-children">
-                        <a href="#">Becoming a RoomFam</a>
-                        <ul className="sub-menu">
-                          <Pages />
-                        </ul>
-                        <span className="dd-trigger">
-                          <i className="ti-arrow-down" />
-                        </span>
+                      <li className="menu-item ">
+                        <a href="/how-work">Become a RoomFam</a>
+                        <Pages />
                       </li>
                       {/* <li className="menu-item has-children">
                         <a href="#">Article</a>
@@ -145,7 +139,7 @@ const Header3 = () => {
                       </Link>
                     </li> */}
                     <li className="hero-nav-btn">
-                      <Link href="/add-listing">
+                      <Link href="/LoginHomeScreen">
                         <a className="main-btn ">Login</a>
                       </Link>
                     </li>

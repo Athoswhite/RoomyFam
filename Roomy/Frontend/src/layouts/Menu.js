@@ -25,10 +25,10 @@ export const Listing = () => (
 );
 export const Pages = () => (
   <Fragment>
-    <li className="menu-item">
+    {/* <li className="menu-item">
       <Link href="/add-listing">Add Listing</Link>
-    </li>
-    <li>
+    </li> */}
+    {/* <li>
       <Link href="/products">Our Products</Link>
     </li>
     <li>
@@ -39,7 +39,7 @@ export const Pages = () => (
     </li>
     <li className="menu-item">
       <Link href="/pricing">Pricing</Link>
-    </li>
+    </li> */}
   </Fragment>
 );
 export const Blog = () => (
@@ -59,3 +59,4 @@ export const Contact = () => (
     </li>
   </Fragment>
 );
+

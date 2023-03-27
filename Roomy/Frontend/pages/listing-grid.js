@@ -3,175 +3,27 @@ import React from "react";
 import PageBanner from "../src/components/PageBanner";
 import RangeSlider from "../src/components/RangeSlider";
 import Layout from "../src/layouts/Layout";
-import HowWorkDetail from "../src/components/HowWorkDetails";
+import HowWorkDetail2 from "../src/components/HowWorkDetail2";
+import LearnAboutUs from "../src/components/LearnAboutUs"
+import RoomiesChat from "../src/components/RoomiesChat";
+import Partner from "../src/components/Partner";
 
 const ListingGrid = () => {
   return (
     <Layout>
-      <PageBanner title={"Find A Roomy"} pageName={"Listing"} />
+      <PageBanner title={"roomies"} pageName={"Find Roomies"} />
       <section className="listing-grid-area pt-120 pb-90">
         <div className="container">
-          <HowWorkDetail />
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="sidebar-widget-area">
-                <div className="widget search-listing-widget mb-30 wow fadeInUp">
-                  <h4 className="widget-title">Filter Search</h4>
-                  <form onSubmit={(e) => e.preventDefault()}>
-                    <div className="search-form">
-                      <div className="form_group">
-                        <input
-                          type="search"
-                          className="form_control"
-                          placeholder="Search keyword"
-                          name="search"
-                          required=""
-                        />
-                        <i className="ti-search" />
-                      </div>
-                      <div className="form_group">
-                        <select className="wide">
-                          <option disabled selected="Category">
-                            Category
-                          </option>
-                          <option value={1}>Museums</option>
-                          <option value={2}>Restaurant</option>
-                          <option value={3}>Party Center</option>
-                          <option value={4}>Fitness Zone</option>
-                          <option value={5}>Game Field</option>
-                          <option value={6}>Job &amp; Feeds</option>
-                          <option value={7}>Shooping</option>
-                          <option value={8}>Art Gallery</option>
-                        </select>
-                      </div>
-                      {/* <div className="form_group">
-                        <select className="wide">
-                          <option disabled selected="Location">
-                            Location
-                          </option>
-                          <option value={1}>Dhaka</option>
-                          <option value={2}>Delhi</option>
-                          <option value={3}>lahore</option>
-                          <option value={4}>Rome</option>
-                          <option value={5}>New york</option>
-                          <option value={6}>Pris</option>
-                          <option value={7}>Bern</option>
-                          <option value={8}>Bangkok</option>
-                        </select>
-                      </div> */}
-                      {/* <div className="form_group">
-                        <select className="wide">
-                          <option disabled selected="By Country">
-                            By Country
-                          </option>
-                          <option value={1}>Bangladesh</option>
-                          <option value={2}>India</option>
-                          <option value={3}>Pakistan</option>
-                          <option value={4}>Italy</option>
-                          <option value={5}>America</option>
-                          <option value={6}>London</option>
-                          <option value={7}>Swizerland</option>
-                          <option value={8}>Thailand</option>
-                        </select>
-                      </div> */}
-                      {/* <div className="form_group">
-                        <select className="wide">
-                          <option disabled selected="By place">
-                            By place
-                          </option>
-                          <option value={1}>Dhaka</option>
-                          <option value={2}>Delhi</option>
-                          <option value={3}>lahore</option>
-                          <option value={4}>Rome</option>
-                          <option value={5}>New york</option>
-                          <option value={6}>Pris</option>
-                          <option value={7}>Bern</option>
-                          <option value={8}>Bangkok</option>
-                        </select>
-                      </div> */}
-                    </div>
-                    {/* <div className="price-range-widget">
-                      <h4 className="widget-title">Around Distance: 50 km</h4>
-                      <RangeSlider />
-
-                      <select className="wide">
-                        <option disabled selected="Default price">
-                          Default price
-                        </option>
-                        <option value={1}>$10-$30</option>
-                        <option value={2}>$30-$70</option>
-                        <option value={3}>$70-$100</option>
-                        <option value={4}>$100-$130</option>
-                        <option value={5}>$130-$150</option>
-                      </select>
-                    </div> */}
-                    <div className="form_group">
-                      <button className="main-btn icon-btn">Search Now</button>
-                    </div>
-                  </form>
-                </div>
-                {/* <div className="widget newsletter-widget mb-30 wow fadeInUp">
-                  <div
-                    className="newsletter-widget-wrap bg_cover"
-                    style={{
-                      backgroundImage:
-                        "url(assets/images/newsletter-widget-1.jpg)",
-                    }}
-                  >
-                    <i className="flaticon-email-1" />
-                    <h3>Subscribe Our Newsletter</h3>
-                    <button className="main-btn icon-btn">Subscribe</button>
-                  </div>
-                </div> */}
-              </div>
-            </div>
-            <div className="col-lg-8">
-              <div className="listing-search-filter mb-40">
-                <div className="row">
-                  <div className="col-md-8">
-                    <div className="filter-left d-flex align-items-center">
-                      <div className="show-text">
-                        <span>Showing Result 1-09</span>
-                      </div>
-                      <div className="sorting-dropdown">
-                        <select>
-                          <option disabled selected="Default Sorting">
-                            Default Sorting
-                          </option>
-                          <option value={1}>Museums</option>
-                          <option value={2}>Restaurant</option>
-                          <option value={3}>Party Center</option>
-                          <option value={4}>Fitness Zone</option>
-                          <option value={5}>Game Field</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="filter-right">
-                      <ul className="filter-nav">
-                        <li>
-                          <Link href="/listing-grid">
-                            <a className="active">
-                              <i className="ti-view-grid" />
-                            </a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/listing-list">
-                            <a>
-                              <i className="ti-view-list-alt" />
-                            </a>
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+          <HowWorkDetail2 />
+          {/* <div className="row">
+             
+            <div className="col-lg-12">
+            <div className="section-title text-center mb-60 wow fadeInUp">
+                <span className="sub-title">Popular Listings</span>
               </div>
               <div className="listing-grid-wrapper">
                 <div className="row">
-                  <div className="col-md-6 col-sm-12">
+                  <div className="col-md-6 col-sm-10">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
                         <img
@@ -428,7 +280,7 @@ const ListingGrid = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <div className="col-md-6 col-sm-12">
                     <div className="listing-item listing-grid-item-two mb-30 wow fadeInUp">
                       <div className="listing-thumbnail">
@@ -687,12 +539,17 @@ const ListingGrid = () => {
                       </div>
                     </div>
                   </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
+{/*                   
+                </div> */}
+              {/* </div> */}
+            {/* </div>
+          </div> */}
+          
+      <Partner />
+      <RoomiesChat />
         </div>
       </section>
+      <LearnAboutUs />
     </Layout>
   );
 };

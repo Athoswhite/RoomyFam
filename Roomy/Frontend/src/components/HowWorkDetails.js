@@ -11,8 +11,8 @@ const HowWorkDetail = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section-title text-center mb-60 wow fadeInUp">
-                <span className="sub-title">Working Process</span>
-                <h2>How Listing Works</h2>
+                <span className="sub-title">How it works</span>
+                <h2>for RoomFams</h2>
               </div>
             </div>
           </div>
@@ -51,13 +51,13 @@ const HowWorkDetail = () => {
                       <div className="content">
                         <span className="line" />
                         <h3 className="title">
-                        Find
-                          <br />The Right RoomFam
+                        Create
+                          <br />A free Listing
                         </h3>
                         <p>
-                        RoomFam is all about finding the perfect roommates for your student living experience. Our advanced search filters allow you to customize your search based on your preferences, such as living habits, interests, and personalities. Plus, with our verified RoomFam profiles, you can feel confident that you're connecting with real people who share similar values and lifestyles.
+                        To create a free listing on RoomFam, simply visit our website and sign up for an account. Once you're logged in, click on the "List a Room" button and fill out the required information about your living space, including location, rent, and any amenities or features you offer. Don't forget to upload photos to give potential roommates a better idea of what your space looks like.
                         </p>
-                        <Link href="/listing-grid">
+                        <Link href="/LoginHomeScreen">
                           <a className="btn-link icon-btn">Explore List</a>
                         </Link>
                       </div>
@@ -66,7 +66,7 @@ const HowWorkDetail = () => {
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInRight">
                       <img
-                        src="assets/images/elements/step-1.jpg"
+                        src="assets/images/elements/room-1.jpg"
                         alt="process Image"
                       />
                     </div>
@@ -79,14 +79,14 @@ const HowWorkDetail = () => {
                       <div className="content">
                         <span className="line" />
                         <h3 className="title">
-                          Create
+                          Meet
                           <br />
-                          Your Account
+                          Your Roombody
                         </h3>
                         <p>
-                        To get started with RoomFam, all you need to do is create an account! This process is quick and easy - simply provide some basic information about yourself and your living preferences, and you'll be able to start browsing listings and connecting with potential RoomFams.
+                        After you've listed your room, you can start browsing through potential roommates who have also created profiles on RoomFam. Our advanced search filters allow you to narrow down your search based on criteria such as gender, age, and lifestyle preferences. When you find someone who seems like a good fit, send them a message to introduce yourself and ask any questions you may have.
                         </p>
-                        <Link href="/listing-grid">
+                        <Link href="/LoginHomeScreen">
                           <a className="btn-link icon-btn">Explore List</a>
                         </Link>
                       </div>
@@ -95,7 +95,7 @@ const HowWorkDetail = () => {
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInLeft">
                       <img
-                        src="assets/images/elements/step-2.jpg"
+                        src="assets/images/elements/room-2.jpg"
                         alt="process Image"
                       />
                     </div>
@@ -110,12 +110,11 @@ const HowWorkDetail = () => {
                         <h3 className="title">
                           Chat
                           <br />
-                          To A RoomFam
+                          To A Potential Roomies
                         </h3>
                         <p>
-                        Once you've found some potential RoomFams, it's time to start chatting! Our in-app messaging feature allows you to communicate with other users in a safe and secure way, so you can get to know each other before deciding to sign a lease together. Plus, with our built-in translation feature, you can easily connect with RoomFams who may speak a different language.
-                        </p>
-                        <Link href="/listing-grid">
+                        Once you've connected with a potential roommate, start chatting with them to get to know them better. Ask about their interests, habits, and lifestyle to ensure that you're a good match. You can use our secure messaging system to communicate with each other and share photos or videos of your living space.                        </p>
+                        <Link href="/LoginHomeScreen">
                           <a className="btn-link icon-btn">Explore List</a>
                         </Link>
                       </div>
@@ -124,7 +123,7 @@ const HowWorkDetail = () => {
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInRight">
                       <img
-                        src="assets/images/elements/step-3.jpg"
+                        src="assets/images/elements/room-3.jpg"
                         alt="process Image"
                       />
                     </div>
@@ -137,15 +136,14 @@ const HowWorkDetail = () => {
                       <div className="content">
                         <span className="line" />
                         <h3 className="title">
-                          Sign
+                          Get
                           <br />
-                          In Your Lease
+                          Your Money
                         </h3>
                         <p>
-                        When you've found the right RoomFam and the perfect student rental, it's time to sign your lease! Our platform makes this process seamless and straightforward - you can sign your lease digitally and easily split the rent and security deposit between you and your RoomFams.
-
+                        Once you've agreed on the details of your living arrangement, it's time to get your money. Use our built-in payment system to securely transfer rent payments between you and your roommate. This ensures that you both have a record of all transactions and eliminates the need for cash or checks.
                         </p>
-                        <Link href="/listing-grid">
+                        <Link href="/LoginHomeScreen">
                           <a className="btn-link icon-btn">Explore List</a>
                         </Link>
                       </div>
@@ -154,7 +152,7 @@ const HowWorkDetail = () => {
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInLeft">
                       <img
-                        src="assets/images/elements/step-2.jpg"
+                        src="assets/images/elements/room-4.jpg"
                         alt="process Image"
                       />
                     </div>
@@ -167,14 +165,13 @@ const HowWorkDetail = () => {
                       <div className="content">
                         <span className="line" />
                         <h3 className="title">
-                          Move
+                          Welcome
                           <br />
-                          In
+                          Mate
                         </h3>
                         <p>
-                        Finally, it's time to move in! Roomies helps to make this process as stress-free as possible by providing resources and tips for a smooth move-in day. You'll also have access to helpful articles and advice on living with RoomFams and making the most of your shared living space. With Roomies, you can start enjoying your new home right away.
-                        </p>
-                        <Link href="/listing-grid">
+                        Finally, welcome your new roommate to your home! Show them around and help them get settled in. With RoomFam, you can feel confident that you've found the right roommates to share your student living experience with.                        </p>
+                        <Link href="/LoginHomeScreen">
                           <a className="btn-link icon-btn">Explore List</a>
                         </Link>
                       </div>
@@ -183,7 +180,7 @@ const HowWorkDetail = () => {
                   <div className="col-lg-6">
                     <div className="process-img wow fadeInRight">
                       <img
-                        src="assets/images/elements/step-3.jpg"
+                        src="assets/images/elements/room-5.jpg"
                         alt="process Image"
                       />
                     </div>

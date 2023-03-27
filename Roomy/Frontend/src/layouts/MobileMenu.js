@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { About, Blog, Contact, Home, Listing, Pages } from "./Menu";
+import Loginscreen from "../../pages/LoginHomeScreen";
+import ToolTip from "../components/TooTip"
 
 const MobileMenu = () => {
   const [toggle, setToggle] = useState(false);
@@ -50,12 +52,7 @@ const MobileMenu = () => {
             </div>
             <div className="col-md-5">
               <div className="top-content text-center">
-                <p>
-                  We Have Special Offers Every{" "}
-                  <Link href="/">
-                    <a>Find your offer</a>
-                  </Link>
-                </p>
+              <ToolTip />
               </div>
             </div>
             <div className="col-md-3">
@@ -131,7 +128,6 @@ const MobileMenu = () => {
                           <i className="ti-arrow-down"></i>
                         </span>
                       </li>
-                      <About />
                       <li className="menu-item has-children">
                         <a href="/listing-grid">Find Roomies</a>
                         <ul className="sub-menu" style={activeLi("Listings")}>
@@ -168,10 +164,9 @@ const MobileMenu = () => {
                           <i className="ti-arrow-down"></i>
                         </span>
                       </li> */}
-                      <Contact />
                       <li className="nav-btn">
-                        <Link href="#">
-                          <a className="main-btn ">Login/Sign-up</a>
+                        <Link href="/LoginHomeScreen">
+                          <a className="main-btn ">Login</a>
                         </Link>
                       </li>
                     </ul>
@@ -189,8 +184,8 @@ const MobileMenu = () => {
                       </Link>
                     </li>
                     <li className="hero-nav-btn">
-                      <Link href="/add-listing">
-                        <a className="main-btn">Login/Sign-up</a>
+                      <Link href="/LoginHomeScreen">
+                        <a className="main-btn">Login</a>
                       </Link>
                     </li>
                     <li className="nav-toggle-btn">

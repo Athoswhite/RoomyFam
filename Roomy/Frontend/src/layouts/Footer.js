@@ -93,7 +93,7 @@ const Footer = () => {
                   <h4 className="widget-title">More</h4>
                   <ul className="categories-link">
                     <li>
-                      <a href="#">Fair Hosuing Guides</a>
+                      <a href="#">Fair Housing Guides</a>
                     </li>
                     <li>
                       <a href="#">Advertise</a>

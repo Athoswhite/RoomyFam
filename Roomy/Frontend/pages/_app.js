@@ -26,7 +26,7 @@ const MyApp = ({ Component, pageProps }) => {
           rel="stylesheet"
         />
       </Head>
-      {loader && <PreLoader />}
+      {/* {loader && <PreLoader />} */}
       <Component {...pageProps} />
     </Fragment>
     

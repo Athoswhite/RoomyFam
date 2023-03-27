@@ -101,7 +101,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   line-height: 40px;
 }
 
@@ -248,7 +248,7 @@ textarea.form_control {
 
 /*===== All bg =====*/
 .light-bg {
-  background-color: #f7f7f7;
+  background-color: #e7cccc88;
 }
 
 .dark-black {
@@ -471,8 +471,8 @@ button {
   z-index: 337;
 }
 .back-to-top:hover, .back-to-top:focus {
-  background: #0c1b36;
-  color: #fff;
+  background: #0d0d0d;
+  color: #ffffff87;
 }
 
 /*
@@ -482,11 +482,11 @@ button {
     End COMMON css 
 ======================*/
 .contact-information-list .information-item .icon, .copyright-area .copyright-text p, .footer-widget .widget.categories-widget ul.categories-link li a, .footer-widget .widget p, .footer-widget .widget h4.widget-title, .sidebar-widget-area .widget.contact-info-widget .contact-info-content .social-link li a:hover, .sidebar-widget-area .widget.contact-info-widget .contact-map .support-icon, .sidebar-widget-area .widget.newsletter-widget .newsletter-widget-wrap h3, .sidebar-widget-area .widget.tag-cloud-widget a:hover, .sidebar-widget-area .widget.categories-widget .categories-nav li a:hover, .blog-details-wrapper .entry-content .post-tag a:hover, .blog-post-item-four .entry-content .cat-btn, .blog-post-item-three .post-thumbnail .post-date a, .blog-post-item-one .post-thumbnail .post-date a, .team-item-one .team-img .team-social ul.social-link li a, .product-details-wrapper .products-gallery-slider .slick-arrow, .products-item-one .product-img .product-overlay .product-meta .icon:hover, .products-filter .list li a.active, .products-filter .list li a:hover, .place-item-three .place-thumbnail .place-overlay .place-content ul.ratings span, .place-item-three .place-thumbnail .place-overlay .place-content ul.ratings, .place-item-three .place-thumbnail .place-overlay .place-content h4, .place-item-two .place-thumbnail .place-overlay .place-content .icon, .place-item-one .place-thumbnail .place-content span.listing, .listing-details-wrapper.listing-details-wrapper-two .listing-info-area .button .icon-btn:hover, .listing-details-wrapper .listing-rating-box .single-average-rating span.rating, .listing-details-wrapper .listing-tag-box a:hover, .listing-list-item-two .listing-thumbnail .thumbnail-meta .meta-icon-title .icon, .listing-list-item-one .listing-thumbnail .cat-btn, .listing-tab-filter .nav-link.active, .listing-grid-one .listing-thumbnail .thumbnail-meta .meta-icon-title .icon, .listing-slider-one .slick-arrow:hover, .listing-search-filter .filter-right ul.filter-nav li a.active, .listing-search-filter .filter-right ul.filter-nav li a:hover, .featured-btn, .fioxen-pagination .pagination-list li a.active, .fioxen-pagination .pagination-list li a:hover, .newsletter-wrapper .newsletter-content-box-one .content h2, .newsletter-wrapper .newsletter-content-box-one .icon, .client-wrapper-two .client-content-box .main-btn:hover, .client-wrapper-two .client-content-box p, .download-content-box-one ul.button li .app-btn:hover .info h6, .download-content-box-one ul.button li .app-btn:hover .info span, .intro-content-box-one p, .intro-wrapper-one .play-content-one h5, .cta-wrapper-two .cta-content-box .main-btn:hover, .cta-wrapper-two .cta-content-box h2, .cta-wrapper-two .cta-content-box p, .cta-wrapper-two .company-name, .cta-wrapper-one .cta-content-box h2, .features-list-one .list-item .icon i, .category-item-two .category-img .category-overlay .category-content a, .breadcrumbs-wrapper-one .button .icon-btn:hover, .hero-wrapper-three .hero-search-wrapper .search-nav .nav-link.active, .hero-wrapper-three .hero-content h3, .hero-wrapper-three .hero-content h1, .hero-wrapper-two .hero-content p.tags, .hero-wrapper-two .hero-content h3, .hero-wrapper-two .hero-content h1, .section-title.section-title-white span.sub-title, .section-title.section-title-white h2, .section-title.section-title-white p {
-  color: #fff;
+  color: #ffffff74;
 }
 
 .contact-information-list .information-item .info p a:hover, .copyright-area .copyright-link ul li a:hover, .footer-widget .widget.categories-widget ul.categories-link li a:hover, .footer-widget .widget.recent-post-widget .post-widget-list .post-content-item .post-title-date h6.title:hover, .sidebar-widget-area .widget.business-hour-widget ul.time-info li span.st-close, .sidebar-widget-area .widget.recent-post-widget .recent-post-list .post-thumbnail-content .post-title-date h6:hover, .sidebar-widget-area .widget.recent-post-widget .recent-post-list .post-thumbnail-content .post-title-date .posted-on i, .sidebar-widget-area .widget.search-widget form .form_group i, .blog-details-wrapper .comments-area .comments-list .comment .comment-wrap .comment-author-content .reply, .blog-details-wrapper .post-navigation .post-nav-item h5:hover, .blog-details-wrapper .entry-content .list li:before, .blog-details-wrapper .entry-content .fioxen-blockquote h6, .blog-details-wrapper .entry-content p span, .blog-post-item-four .entry-content h3.title:hover, .blog-post-item-four .entry-content .post-meta ul li span i, .blog-post-item-four .entry-content .post-meta ul li span:hover, .blog-post-item-three .entry-content .post-meta ul li span i, .blog-post-item-three .entry-content h3.title:hover, .blog-post-item-two .entry-content h3.title:hover, .blog-post-item-one .entry-content .post-meta ul li span i, .blog-post-item-one .entry-content .cat-btn:hover, .blog-post-item-one .entry-content h3.title:hover, .post-meta ul li span a:hover, .btn-link:hover, .description-wrapper .products-review-form .ratings li:hover i, .description-wrapper .products-review-area ul.review-list .review .review-content .reply:hover, .product-details-wrapper .product-info .product-meta .wishlist-btn, .product-details-wrapper .product-info span.price, .products-item-one .product-info span.price, .products-filter .sort-dropdown .show-text p, .add-listing-form.upload-listing-form .upload-content .upload-title-icon span, .listing-details-wrapper.listing-details-wrapper-two .listing-info-area .listing-info-content .listing-meta ul li span i, .listing-details-wrapper .listing-review-box .review-list .review .review-content .content-meta .reply, .listing-details-wrapper .listing-content p.para, .listing-list-item-two .listing-content .listing-meta ul span i, .listing-list-item-one .listing-content .listing-meta ul span i, .listing-grid-item-two .listing-content .listing-meta ul span i, .listing-grid-one .listing-content .listing-meta ul span i, .listing-grid-one .listing-content span.phone-meta:hover, .listing-item .listing-content span.phone-meta:hover, .listing-item .listing-content h3.title:hover, .single-checkbox label:after, .newsletter-wrapper .newsletter-form i, .intro-wrppaer-two .play-content .video-popup, .intro-wrapper-one .play-content-one .video-popup i, .counter-item-one .info h3, ul.ratings.ratings-five li.star:nth-child(5) i, ul.ratings.ratings-five li.star:nth-child(4) i, ul.ratings.ratings-five li.star:nth-child(3) i, ul.ratings.ratings-five li.star:nth-child(2) i, ul.ratings.ratings-five li.star:nth-child(1) i, ul.ratings.ratings-four li.star:nth-child(4) i, ul.ratings.ratings-four li.star:nth-child(3) i, ul.ratings.ratings-four li.star:nth-child(2) i, ul.ratings.ratings-four li.star:nth-child(1) i, ul.ratings.ratings-three li.star:nth-child(3) i, ul.ratings.ratings-three li.star:nth-child(2) i, ul.ratings.ratings-three li.star:nth-child(1) i, ul.ratings.ratings-two li.star:nth-child(2) i, ul.ratings.ratings-two li.star:nth-child(1) i, ul.ratings.ratings-one li.star:nth-child(1) i, .work-process-wrapper .single-process-step .process-content-box .step-count, .icon-box-one .icon i, .features-item-two .icon i, .features-item-one .icon i, .category-item-three:hover .info h4.title, .category-item-three:hover .icon i, .category-item-one:hover .info .icon i, .hero-wrapper-three .hero-content p.tags span, .header-area .header-top .top-right ul li a:hover, .header-area .header-top .top-content p a, .header-area .header-top .top-social ul.social-link li a:hover, .section-title span.sub-title {
-  color: #ffa034;
+  color: #e5c7a4;
 }
 
 .copyright-area .copyright-text p span, .hero-wrapper-two .hero-content p.tags span {
@@ -1052,7 +1052,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #7e471a;
+  
 }
 .header-area-one .header-navigation .nav-menu {
   display: -webkit-box;
@@ -1297,7 +1297,7 @@ button {
 .hero-wrapper-one:before {
   width: 56.5%;
   left: 0;
-  background: url(../images/hero/hero-one-bg-1.jpg) no-repeat center center;
+  background: url(../images/hero/hero-three-bg-1.jpg) no-repeat center center;
   background-size: cover;
 }
 @media (max-width: 991px) {
@@ -1493,7 +1493,7 @@ button {
 }
 .breadcrumbs-wrapper:before {
   left: 0;
-  background: url(../images/bg/breadcrumbs-bg-1.jpg) no-repeat center;
+  background: url(../images/hero/hero-three-bg-1.jpg) no-repeat center;
   background-size: cover;
 }
 @media (max-width: 991px) {
@@ -2528,7 +2528,7 @@ ul.ratings li {
   margin-bottom: 30px;
 }
 .client-wrapper-two .client-content-box .main-btn {
-  background-color: #7e471a;
+  background-color: #42260f;
   color: #ffffff;
 }
 .client-wrapper-two .client-item-wrapper {
@@ -5460,7 +5460,7 @@ h3.title {
   color: #fff;
 }
 .footer-widget .widget.newsletter-widget form .main-btn:hover:before {
-  background-color: #7e471a;
+  background-color: #0d0d0d;
 }
 
 .copyright-area {
