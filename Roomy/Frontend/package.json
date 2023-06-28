@@ -18,7 +18,7 @@
     "material": "^0.5.3",
     "material-ui-popup-state": "^5.0.5",
     "mongoose": "^7.0.3",
-    "next": "12.1.0",
+    "next": "12.3.4",
     "nouislider-react": "^3.4.1",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.6",
