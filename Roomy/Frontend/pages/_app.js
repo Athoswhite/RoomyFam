@@ -2,7 +2,7 @@ import Head from "next/head";
 import React, { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/components/PreLoader";
 import "../styles/globals.css";
-import Index3 from "./index-3";
+import Index3 from "./index";
 
 const MyApp = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);

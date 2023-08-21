@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 export const Home = () => (
   <Fragment>
     <li className="menu-item">
-      <Link href="/index-3">Home</Link>
+      <Link href="/">Home</Link>
     </li>
  
   </Fragment>

@@ -90,7 +90,7 @@ const Header3 = () => {
             <div className="row align-items-center">
               <div className="col-lg-2 col-5">
                 <div className="site-branding">
-                  <a href="/index-3" className="brand-logo">
+                  <a href="/" className="brand-logo">
                     <img src="assets/images/logo/logo2.png" alt="Brand Logo" />
                   </a>
                 </div>
