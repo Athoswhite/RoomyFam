@@ -115,7 +115,7 @@ const MobileMenu = () => {
                   <nav className="main-menu">
                     <ul>
                       <li className="menu-item has-children">
-                        <Link href="/index3">
+                        <Link href="/">
                           <a>Home</a>
                         </Link>
                         <ul className="sub-menu" style={activeLi("Home")}>
