@@ -141,7 +141,7 @@ const MobileMenu = () => {
                         </span>
                       </li>
                       <li className="menu-item has-children">
-                        <a href="#">Become A RoomFam</a>
+                        <a href="/how-work">Become A RoomFam</a>
                         <ul className="sub-menu" style={activeLi("Pages")}>
                           <Pages />
                         </ul>
