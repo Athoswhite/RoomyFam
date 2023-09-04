@@ -42,7 +42,7 @@ const Index3 = () => {
                     Your Perfect House
                   </h1>
                   <h3 className="wow fadeInDown" data-wow-delay=".50s">
-                  Find housing for students, young professionals & Experts in Africa 
+                  Find housing for students, young professionals & experts in Africa 
                   </h3>
                   
                   {/* <Searchbar /> */}
