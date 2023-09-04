@@ -18,7 +18,7 @@ const Loginscreen = () => {
     >
       <div className="w-full max-w-md bg-white rounded-md p-8 flex flex-col items-center">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-blue-500">
+          <h1 className="text-3xl font-bold text-amber-700">
             {isLogin ? "Login" : "Sign Up"}
           </h1>
         </div>
@@ -26,7 +26,7 @@ const Loginscreen = () => {
         {isLogin ? <Login /> : <Signup />}
         <div className="text-center mt-8">
           <button
-            className="py-2 px-4 text-blue-500 hover:text-blue-700 font-medium border border-blue-500 hover:border-blue-700 rounded-full transition duration-200"
+            className="py-2 px-4 text-amber-500 hover:text-amber-700 font-medium border border-blue-500 hover:border-amber-700 rounded-full transition duration-200"
             onClick={handleToggle}
           >
             {isLogin

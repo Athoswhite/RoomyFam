@@ -106,7 +106,7 @@ const Header3 = () => {
                       {/* <About /> */}
                       <Listing />
                       <li className="menu-item ">
-                        <a href="/how-work">Become a RoomFam</a>
+                        <a href="">Become a RoomFam</a>
                         <Pages />
                       </li>
                       {/* <li className="menu-item has-children">
