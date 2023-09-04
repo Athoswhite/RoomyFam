@@ -27,7 +27,7 @@ const LearnAboutUs = () => {
                   Africa and support you to do your best work. 
 
                   </p>
-                  <Link href="/about">
+                  <Link href="#">
                     <a className="main-btn icon-btn">Learn More</a>
                   </Link>
                 </div>
