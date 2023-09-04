@@ -94,7 +94,7 @@ const MobileMenu = () => {
             <div className="row">
               <div className="col-lg-2 col-5">
                 <div className="site-branding">
-                  <Link href="/index3">
+                  <Link href="/">
                     <a className="brand-logo">
                       <img
                         src="assets/images/logo/logo2.png"
