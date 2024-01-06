@@ -1,12 +1,7 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Fioxen - Directory & Listings HTML Template
-    Template URI: site.com
-    Description: Fioxen - Directory & Listings HTML Template
-    Author: WebTend 
-    Author URI: https://webtend.net/
-    Version: 1.0
+    
 
 -----------------------------------------------------------------------------------
 
@@ -266,7 +261,7 @@ button {
   display: inline-flex;
   position: relative;
   z-index: 1;
-  background-color: #42260f;
+  background-color: #FD5759;
   padding: 16px 40px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
@@ -365,7 +360,7 @@ button {
   height: 50px;
 }
 #search-modal .form_control:focus {
-  border-color: #7e471a;
+  border-color: #FD5759;
 }
 #search-modal .form_control::-webkit-input-placeholder {
   color: #fff;
@@ -452,7 +447,7 @@ button {
     Start scroll_up css
 */
 .back-to-top {
-  background: #42260f;
+  background: #FD5759;
   border-radius: 50%;
   bottom: 30px;
   color: #fff;
@@ -490,11 +485,11 @@ button {
 }
 
 .copyright-area .copyright-text p span, .hero-wrapper-two .hero-content p.tags span {
-  color: #c06b26;
+  color: rgb(253, 252, 255);
 }
 
 .contact-information-list .information-item .icon, .footer-widget .widget.about-widget .footer-social ul.social-link li a:hover, .sidebar-widget-area .widget.contact-info-widget .contact-info-content .social-link li a:hover, .sidebar-widget-area .widget.contact-info-widget .contact-map .support-icon, .sidebar-widget-area .widget.tag-cloud-widget a:hover, .sidebar-widget-area .widget.categories-widget .categories-nav li a:hover, .blog-details-wrapper .comments-respond .single-checkbox input:checked + label:before, .blog-details-wrapper .entry-content .post-tag a:hover, .blog-details-wrapper .entry-content .post-meta, .blog-post-item-four .entry-content .cat-btn, .description-wrapper .description-tabs .nav-tabs .nav-link:after, .product-details-wrapper .products-gallery-slider .slick-arrow, .products-item-one .product-img .product-overlay .product-meta .icon:hover, .products-filter .list li a.active, .products-filter .list li a:hover, .place-item-two .place-thumbnail .place-overlay .place-content .icon, .place-item-two .place-thumbnail .place-overlay .place-content .info span.span:before, .place-item-one .place-thumbnail .place-content span.listing, .add-listing-form h4.title:after, .add-listing-form h4.title:before, .listing-details-wrapper.listing-details-wrapper-two .listing-info-area .button .icon-btn:hover, .listing-details-wrapper .listing-rating-box .single-average-rating span.rating, .listing-details-wrapper .listing-tag-box a:hover, .listing-list-item-two .listing-thumbnail .thumbnail-meta .meta-icon-title .icon, .listing-list-item-one .listing-thumbnail .cat-btn, .listing-tab-filter .nav-link.active, .listing-grid-item-two .listing-thumbnail .cat-btn, .listing-grid-one .listing-thumbnail .thumbnail-meta .meta-icon-title .icon, .listing-slider-one .slick-arrow:hover, .listing-search-filter .filter-right ul.filter-nav li a.active, .listing-search-filter .filter-right ul.filter-nav li a:hover, .featured-btn, .fioxen-pagination .pagination-list li a.active, .fioxen-pagination .pagination-list li a:hover, .single-checkbox input:checked + label:before, .download-content-box-one ul.button li .app-btn:hover, .features-list-one .list-item .icon, .category-item-three .info h4.title a:after, .category-item-one .category-btn, .breadcrumbs-wrapper-one .button .icon-btn:hover, .hero-wrapper-three .hero-search-wrapper .search-nav .nav-link.active {
-  background-color: #7e471a;
+  background-color: #FD5759;
 }
 
 .products-item-one .product-img .product-overlay .product-meta .icon, .products-filter .list li a {
@@ -545,7 +540,7 @@ button {
   }
 }
 .header-navigation .main-menu ul > li.has-children > a.active:after {
-  color: #7e471a;
+  color: #FD5759;
 }
 .header-navigation .main-menu ul > li.has-children .sub-menu li.has-children:hover > a:after {
   color: #fff;
@@ -581,7 +576,7 @@ button {
   line-height: 1;
 }
 .header-navigation .main-menu ul li > a.active {
-  color: #7e471a;
+  color: #FD5759;
 }
 .header-navigation .main-menu ul li.nav-btn {
   display: none;
@@ -629,7 +624,7 @@ button {
   color: #1b3255;
 }
 .header-navigation .main-menu ul li .sub-menu li a:hover {
-  background-color: #7e471a;
+  background-color: #FD5759;
   color: #fff;
   border-color: transparent;
 }
@@ -641,14 +636,14 @@ button {
   top: 0%;
 }
 .header-navigation .main-menu ul li .sub-menu li:hover > a {
-  background-color: #7e471a;
+  background-color: #FD5759;
   color: #fff;
 }
 .header-navigation .main-menu ul li:hover.menu-item-has-children > a:after {
-  color: #7e471a;
+  color: #FD5759;
 }
 .header-navigation .main-menu ul li:hover > a {
-  color: #7e471a;
+  color: #FD5759;
 }
 .header-navigation .main-menu ul li:hover > .sub-menu {
   opacity: 1;
@@ -808,7 +803,7 @@ button {
   line-height: 40px;
   display: none;
   cursor: pointer;
-  background: #7e471a;
+  background: #FD5759;
 }
 .header-navigation .navbar-close i {
   color: #fff;
@@ -1147,7 +1142,7 @@ button {
   color: #fff;
 }
 .header-area-three .header-navigation .main-menu ul > li.has-children > a.active:after {
-  color: #7e471a;
+  color: #FD5759;
 }
 .header-area-three .header-navigation .main-menu ul li a {
   color: #fff;
@@ -1156,7 +1151,7 @@ button {
   color: #ff9634;
 }
 .header-area-three .header-navigation .main-menu ul li:hover > a {
-  color: #7e471a;
+  color: #FD5759;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-area-three .header-navigation .header-right-nav ul li .main-btn {
@@ -1879,7 +1874,7 @@ button {
 
 .features-content-box-one h5 {
   margin-bottom: 35px;
-  color: #7e471a;
+  color: #FD5759;
   font-weight: 500;
 }
 
@@ -1920,7 +1915,7 @@ button {
   content: "";
   width: 60px;
   height: 60px;
-  border: 1px solid #7e471a;
+  border: 1px solid #FD5759;
   border-radius: 3px;
 }
 .features-list-one .list-item .icon i {
@@ -2528,7 +2523,7 @@ ul.ratings li {
   margin-bottom: 30px;
 }
 .client-wrapper-two .client-content-box .main-btn {
-  background-color: #42260f;
+  background-color: #FD5759;
   color: #ffffff;
 }
 .client-wrapper-two .client-item-wrapper {
@@ -2762,7 +2757,7 @@ span.status.st-open {
   background-color: #35c54c;
 }
 span.status.st-close {
-  background-color: #7e471a;
+  background-color: #FD5759;
 }
 
 h3.title {
@@ -2882,7 +2877,7 @@ h3.title {
   width: 0;
   height: 0;
   content: "";
-  border-bottom: 15px solid #7e471a;
+  border-bottom: 15px solid #FD5759;
   border-right: 13.01px solid transparent;
 }
 .listing-grid-one .listing-thumbnail img {
@@ -3542,7 +3537,7 @@ h3.title {
   margin-right: 10px;
 }
 .listing-details-wrapper .listing-review-form .form-rating .ratings li:hover i {
-  color: #7e471a;
+  color: #FD5759;
 }
 .listing-details-wrapper .listing-review-form .form_control {
   border: 1px solid #efefef;
@@ -3555,7 +3550,7 @@ h3.title {
   margin-bottom: 30px;
 }
 .listing-details-wrapper .listing-review-form .single-checkbox label:before {
-  border: 1px solid #7e471a;
+  border: 1px solid #FD5759;
 }
 .listing-details-wrapper .listing-play-box h4.title {
   margin-bottom: 35px;
@@ -3852,7 +3847,7 @@ h3.title {
   margin-right: 5px;
 }
 .place-slider-one .slick-dots li.slick-active button {
-  background-color: #7e471a;
+  background-color: #FD5759;
 }
 .place-slider-one .slick-dots li button {
   width: 12px;
@@ -4407,7 +4402,7 @@ h3.title {
 }
 .description-wrapper .products-review-form .form_control:focus {
   background-color: #fff;
-  border-color: #7e471a;
+  border-color: #FD5759;
 }
 .description-wrapper .products-review-form textarea.form_control {
   height: 200px;
@@ -4562,7 +4557,7 @@ h3.title {
   position: absolute;
   bottom: -100%;
   left: 20px;
-  background-color: #7e471a;
+  background-color: #FD5759;
   padding: 38px 15px 33px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -4707,7 +4702,7 @@ h3.title {
   }
 }
 .blog-post-item-two .entry-content .cat-btn {
-  background-color: #7e471a;
+  background-color: #FD5759;
   font-weight: 600;
   color: #fff;
   line-height: 20px;
@@ -5177,14 +5172,14 @@ h3.title {
   border-radius: 0px;
 }
 .sidebar-widget-area .widget .price-range-widget .ui-widget .ui-slider-range {
-  background-color: #7e471a;
+  background-color: #FD5759;
 }
 .sidebar-widget-area .widget .price-range-widget .ui-widget .ui-slider-handle {
   top: -6px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #7e471a;
+  background-color: #FD5759;
   border: none;
 }
 .sidebar-widget-area .widget .price-range-widget .price-number {
@@ -5353,7 +5348,7 @@ h3.title {
   margin-right: 10px;
 }
 .app-btn .icon i {
-  color: #7e471a;
+  color: #FD5759;
 }
 .app-btn .info {
   line-height: 1;
@@ -5382,7 +5377,7 @@ h3.title {
   display: inline-block;
 }
 .footer-widget .widget.about-widget ul.button li .app-btn:hover {
-  background-color: #7e471a;
+  background-color: #FD5759;
   color: #fff;
 }
 .footer-widget .widget.about-widget ul.button li .app-btn:hover .icon i {
@@ -5454,7 +5449,7 @@ h3.title {
 .footer-widget .widget.newsletter-widget form .main-btn {
   border-radius: 30px;
   color: #ffffff;
-  background-color: #47280c;
+  background-color: #FD5759;
 }
 .footer-widget .widget.newsletter-widget form .main-btn:hover {
   color: #fff;
