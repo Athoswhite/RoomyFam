@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/how-work": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/how-work.js"
-    ],
     "/listing-grid": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
