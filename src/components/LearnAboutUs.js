@@ -19,15 +19,10 @@ const LearnAboutUs = () => {
                     <h2>About Us</h2>
                   </div>
                   <p>
-                  At Roomy Africa, we strongly believe 
-                  our people are our greatest asset. It doesn't 
-                  matter where you come from and what 
-                  department you join. We will walk you through 
-                  your entire experience of working at Roomy 
-                  Africa and support you to do your best work. 
+                  Roomy Africa specializes in providing African international students with secure, comfortable accommodations tailored to enhance their living and learning experience.From shared apartments to private studios, we offer a variety of housing options selected for their safety and convenience. As an educational ally, Roomy Africa also assists in the university application process and fosters connections with renowned institutions across Africa, supporting cultural diversity and academic success.
 
                   </p>
-                  <Link href="#">
+                  <Link href="/about">
                     <a className="main-btn icon-btn">Learn More</a>
                   </Link>
                 </div>

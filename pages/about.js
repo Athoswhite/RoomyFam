@@ -16,90 +16,8 @@ const About = () => {
             <div className="row justify-content-center">
               <div className="col-lg-6">
                 <div className="section-title text-center mb-60 wow fadeInUp">
-                  <span className="sub-title">Some Feature</span>
-                  <h2>Caring Your Hobbies</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div
-                  className="features-item features-item-two text-center mb-40 wow fadeInUp"
-                  data-wow-delay="10ms"
-                >
-                  <div className="icon">
-                    <i className="flaticon-add-user" />
-                  </div>
-                  <div className="content">
-                    <h3 className="title">User Friendly</h3>
-                    <p>
-                      Congue men porttitor blandit erat to loborti lacinia
-                      sapien pretium disenty
-                    </p>
-                    <Link href="/how-work">
-                      <a className="btn-link icon-btn">More Details</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div
-                  className="features-item features-item-two text-center mb-40 wow fadeInDown"
-                  data-wow-delay="20ms"
-                >
-                  <div className="icon">
-                    <i className="flaticon-gift-box" />
-                  </div>
-                  <div className="content">
-                    <h3 className="title">Daily Offers</h3>
-                    <p>
-                      Congue men porttitor blandit erat to loborti lacinia
-                      sapien pretium disenty
-                    </p>
-                    <Link href="/how-work">
-                      <a className="btn-link icon-btn">More Details</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div
-                  className="features-item features-item-two text-center mb-40 wow fadeInUp"
-                  data-wow-delay="30ms"
-                >
-                  <div className="icon">
-                    <i className="flaticon-laptop" />
-                  </div>
-                  <div className="content">
-                    <h3 className="title">Quick Search</h3>
-                    <p>
-                      Congue men porttitor blandit erat to loborti lacinia
-                      sapien pretium disenty
-                    </p>
-                    <Link href="/how-work">
-                      <a className="btn-link icon-btn">More Details</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12">
-                <div
-                  className="features-item features-item-two text-center mb-40 wow fadeInDown"
-                  data-wow-delay="40ms"
-                >
-                  <div className="icon">
-                    <i className="flaticon-headphone" />
-                  </div>
-                  <div className="content">
-                    <h3 className="title">Live Support</h3>
-                    <p>
-                      Congue men porttitor blandit erat to loborti lacinia
-                      sapien pretium disenty
-                    </p>
-                    <Link href="/how-work">
-                      <a className="btn-link icon-btn">More Details</a>
-                    </Link>
-                  </div>
+                  <span className="sub-title">About Us</span>
+                  <h2>Welcome to Roomy Africa</h2>
                 </div>
               </div>
             </div>
@@ -115,7 +33,7 @@ const About = () => {
               <div className="col-lg-6">
                 <div className="features-img wow fadeInLeft">
                   <img
-                    src="assets/images/features/features-1.jpg"
+                    src="https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     alt="Features Image"
                   />
                 </div>
@@ -123,13 +41,11 @@ const About = () => {
               <div className="col-lg-6">
                 <div className="features-content-box features-content-box-one">
                   <div className="section-title section-title-left mb-30 wow fadeInUp">
-                    <span className="sub-title">Our Speciality</span>
-                    <h2>Comprehnsive All Great Destination Here</h2>
+                    <span className="sub-title">About</span>
+                    <h2> Who We Are </h2>
                   </div>
                   <h5>
-                    Risus urnas Iaculis per amet vestibulum luctus.tincidunt
-                    ultricies aenean quam eros eleifend sodales cubilia mattis
-                    quam.
+                  Roomy Africa specializes in providing African international students with secure, comfortable accommodations tailored to enhance their living and learning experience. 
                   </h5>
                   <ul className="features-list-one">
                     <li
@@ -137,13 +53,12 @@ const About = () => {
                       data-wow-delay="10ms"
                     >
                       <div className="icon">
-                        <i className="flaticon-find" />
+                        <i className="#" />
                       </div>
                       <div className="content">
-                        <h5>Find What You Want</h5>
+                        <h5>Mission</h5>
                         <p>
-                          Rhoncus dolor quam etiam mattis, tincidunt nec
-                          lobortis sociis facilisi aenean netus tempor duis.
+                        our mission is to bridge the gap between comfort and education for African international students. As pioneers in the hospitality industry, we’ve recognized the unique challenges faced by students when studying away from home. Roomy Africa is not just an accommodation platform; it’s a sanctuary where educational dreams are nurtured, and cultural diversity is celebrated.
                         </p>
                       </div>
                     </li>
@@ -152,13 +67,12 @@ const About = () => {
                       data-wow-delay="20ms"
                     >
                       <div className="icon">
-                        <i className="flaticon-place" />
+                        <i className="#" />
                       </div>
                       <div className="content">
-                        <h5>Easy Choose Your Place</h5>
+                        <h5>Vision</h5>
                         <p>
-                          Rhoncus dolor quam etiam mattis, tincidunt nec
-                          lobortis sociis facilisi aenean netus tempor duis.
+                        At Roomy Africa, we envision a continent where every student can access quality education without the burden of finding a safe and affordable place to live. We believe that by removing the stress of securing a home away from home, students can focus solely on their academic pursuits and personal growth.
                         </p>
                       </div>
                     </li>
@@ -167,13 +81,41 @@ const About = () => {
                       data-wow-delay="30ms"
                     >
                       <div className="icon">
-                        <i className="flaticon-social-care" />
+                        <i className="#" />
                       </div>
                       <div className="content">
-                        <h5>Live Online Assistance</h5>
+                        <h5>Services</h5>
                         <p>
-                          Rhoncus dolor quam etiam mattis, tincidunt nec
-                          lobortis sociis facilisi aenean netus tempor duis.
+                        Roomy Africa is more than a service; it’s a community. We are dedicated to fostering an environment where students from diverse backgrounds can connect, share experiences, and support one another. By choosing Roomy Africa, you’re joining a family that understands your challenges and celebrates your achievements.
+                        </p>
+                      </div>
+                    </li>
+                    <li
+                      className="list-item wow fadeInUp"
+                      data-wow-delay="30ms"
+                    >
+                      <div className="icon">
+                        <i className="#" />
+                      </div>
+                      <div className="content">
+                        <h5>Community</h5>
+                        <p>
+                        With a robust network of hospitable hosts across Africa, we offer a wide range of living spaces tailored to meet every student’s needs. From cozy rooms in shared apartments to private studios, our accommodations are vetted for safety, comfort, and convenience.
+Beyond just providing a roof over your head, Roomy Africa stands as an educational ally. Our personalized assistance program guides African youth through the university application process, connecting them with top-tier educational institutions across the continent. We take pride in our commitment to education and strive to ensure that our users not only find their ideal housing but also embark on their academic journey with confidence.
+                        </p>
+                      </div>
+                    </li>
+                    <li
+                      className="list-item wow fadeInUp"
+                      data-wow-delay="30ms"
+                    >
+                      <div className="icon">
+                        <i className="#" />
+                      </div>
+                      <div className="content">
+                        <h5>Promise</h5>
+                        <p>
+                        We promise to maintain a user-friendly platform that prioritizes security, affordability, and support for every student. Our team works tirelessly to ensure seamless communication between hosts and students, providing round-the-clock assistance whenever needed.
                         </p>
                       </div>
                     </li>
@@ -189,22 +131,21 @@ const About = () => {
       <section className="cta-area">
         <div
           className="cta-wrapper-two bg_cover b"
-          style={{ backgroundImage: "url(assets/images/bg/cta-bg-2.jpg)" }}
+          style={{ backgroundImage: "url(https://images.pexels.com/photos/3360204/pexels-photo-3360204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)" }}
         >
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-7">
-                <div className="company-name wow fadeInLeft">Fioxen</div>
+                <div className="company-name wow fadeInLeft">Find</div>
               </div>
               <div className="col-lg-5">
                 <div className="cta-content-box wow fadeInRight">
-                  <h2>Visit the Best Places</h2>
+                  <h2>Join Us Today!</h2>
                   <p>
-                    Pharetra venenatis ante pulvinar fermentum dignissim one
-                    malesuada laoreet ridiculus fringilla quam
+                  Whether you’re an international student seeking your next home or a host looking to make a difference in a student’s life, Roomy Africa welcomes you with open arms.
                   </p>
-                  <Link href="/listing-grid">
-                    <a className="main-btn icon-btn">Explore Now</a>
+                  <Link href="/LoginHomeScreen">
+                    <a className="main-btn icon-btn text-white">Explore Now</a>
                   </Link>
                 </div>
               </div>
@@ -214,7 +155,7 @@ const About = () => {
       </section>
       {/*====== End CTA Section ======*/}
       {/*====== Start Testimonial Section ======*/}
-      <section
+      {/* <section
         className="testimonial-area bg_cover pt-110 pb-265"
         style={{
           backgroundImage: "url(assets/images/bg/testimonial-bg-2.jpg)",
@@ -239,10 +180,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Testimonial Section ======*/}
       {/*====== Start Newsletter Section ======*/}
-      <section className="newsletter-area">
+      {/* <section className="newsletter-area">
         <div className="container">
           <div
             className="newsletter-wrapper newsletter-wrapper-one bg_cover"
@@ -279,10 +220,10 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Newsletter Section ======*/}
       {/*====== Start Team Section ======*/}
-      <section className="team-area pt-115 pb-85">
+      {/* <section className="team-area pt-115 pb-85">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -403,7 +344,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Team Section ======*/}
     </Layout>
   );

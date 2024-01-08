@@ -24,7 +24,7 @@ const Tooltip =() => {
               horizontal: 'center',
             }}
           >
-            <Typography sx={{ p: 2, color: 'brown'}}>No offers this Month</Typography>
+            <Typography sx={{ p: 2, color: 'purple'}}>No offers this Month</Typography>
           </Popover>
         </div>
       )}

@@ -14,10 +14,10 @@ const HowWork = () => {
     <Layout>
       {video && <VideoPopup close={setVideo} />}
       <br />
-      <PageBanner title={"RoomFam"} />
+      <PageBanner title={""} />
 
       <HowWorkDetail />
-      <Testimonies />
+      {/* <Testimonies /> */}
       <RoomFamChat />
       <LearnAboutUs />
       {/*====== End Work-process Section ======*/}

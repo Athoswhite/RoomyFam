@@ -147,7 +147,7 @@ const Footer = () => {
               <div className="col-lg-6">
                 <div className="copyright-text">
                   <p>
-                    Copyright &copy; 2023. All rights reserved to{" "}
+                    Copyright &copy; 2024. All rights reserved to{" "}
                     <span>Roomy Inc.</span>
                   </p>
                 </div>

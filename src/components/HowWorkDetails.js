@@ -110,7 +110,7 @@ const HowWorkDetail = () => {
                         <h3 className="title">
                           Chat
                           <br />
-                          To A Potential Roomies
+                          To A Potential Roommy
                         </h3>
                         <p>
                         Once you've connected with a potential roommate, start chatting with them to get to know them better. Ask about their interests, habits, and lifestyle to ensure that you're a good match. You can use our secure messaging system to communicate with each other and share photos or videos of your living space.                        </p>
