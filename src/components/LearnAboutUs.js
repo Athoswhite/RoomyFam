@@ -19,7 +19,7 @@ const LearnAboutUs = () => {
                     <h2>About Us</h2>
                   </div>
                   <p>
-                  Roomy Africa specializes in providing African international students with secure, comfortable accommodations tailored to enhance their living and learning experience.From shared apartments to private studios, we offer a variety of housing options selected for their safety and convenience. As an educational ally, Roomy Africa also assists in the university application process and fosters connections with renowned institutions across Africa, supporting cultural diversity and academic success.
+                  Roomy Africa specializes in providing African international students with secure, comfortable accommodations tailored to enhance their living and learning experience.From shared apartments to private studios, we offer a variety of housing options selected for their safety and convenience. As an educational ally.
 
                   </p>
                   <Link href="/about">
