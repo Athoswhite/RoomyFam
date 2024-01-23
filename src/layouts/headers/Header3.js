@@ -37,7 +37,7 @@ const Header3 = () => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="https://www.instagram.com/roomyafrica/">
+                    <a href="https://www.instagram.com/roomyafrica">
                       <i className="ti-instagram" />
                     </a>
                   </li>
@@ -140,7 +140,7 @@ const Header3 = () => {
                     </li> */}
                     <li className="hero-nav-btn">
                       <Link href="/LoginHomeScreen">
-                        <a className="main-btn ">Login</a>
+                        <a className="main-btn ">Get Started</a>
                       </Link>
                     </li>
                     <li className="nav-toggle-btn">

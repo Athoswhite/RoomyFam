@@ -57,7 +57,7 @@ const Footer = () => {
                         </a>
                       </li> */}
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/roomyafrica">
                           <i className="ti-instagram"></i>
                         </a>
                       </li>
